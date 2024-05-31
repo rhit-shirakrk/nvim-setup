@@ -42,6 +42,9 @@ return {
 				"black",
 				"xmlformatter",
 				"yamlfmt",
+				"cpplint",
+				"pylint",
+				"yamllint",
 			},
 		})
 	end,
