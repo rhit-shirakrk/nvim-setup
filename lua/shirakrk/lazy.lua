@@ -11,7 +11,7 @@ if not (vim.uv or vim.loop).fs_stat(lazypath) then
 end
 vim.opt.rtp:prepend(lazypath)
 
-require("lazy").setup("shirakrk.plugins", {
+require("lazy").setup({ { import = "shirakrk.plugins" }, { import = "shirakrk.plugins.lsp" } }, {
     checker = {
         enabled = true,
         notify = false,
