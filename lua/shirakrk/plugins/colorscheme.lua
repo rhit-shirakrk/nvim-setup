@@ -6,7 +6,7 @@ return {
         if time.hour >= 7 and time.hour <= 17 then
             vim.cmd("colorscheme tokyonight-day")
         else
-            vim.cmd("colorscheme tokyonight-storm")
+            vim.cmd("colorscheme tokyonight-night")
         end
     end,
 }
