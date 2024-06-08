@@ -5,8 +5,8 @@ local opt = vim.opt
 opt.relativenumber = true
 opt.number = true
 
-opt.tabstop = 4
-opt.shiftwidth = 4
+opt.tabstop = 2
+opt.shiftwidth = 2
 opt.expandtab = true
 opt.autoindent = true
 
@@ -20,9 +20,9 @@ opt.cursorline = true
 opt.termguicolors = true
 local time = os.date("*t")
 if time.hour >= 7 and time.hour <= 17 then
-    vim.cmd.background = "light"
+	vim.cmd.background = "light"
 else
-    vim.cmd.background = "dark"
+	vim.cmd.background = "dark"
 end
 
 opt.signcolumn = "yes"
