@@ -90,5 +90,6 @@ return {
                 })
             end,
         })
+        lspconfig.racket_langserver.setup({})
     end,
 }
