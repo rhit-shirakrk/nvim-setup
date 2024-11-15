@@ -29,6 +29,7 @@ return {
 				"pyright",
 				"lemminx",
 				"yamlls",
+				"ruby_lsp",
 			},
 		})
 
@@ -45,6 +46,7 @@ return {
 				"cpplint",
 				"pylint",
 				"yamllint",
+				"rubocop",
 			},
 		})
 	end,
