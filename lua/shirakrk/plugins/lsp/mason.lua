@@ -22,14 +22,15 @@ return {
 
 		mason_lspconfig.setup({
 			ensure_installed = {
+				"ast_grep",
 				"bashls",
 				"clangd",
+				"lemminx",
 				"lua_ls",
 				"marksman",
 				"pyright",
-				"lemminx",
-				"yamlls",
 				"ruby_lsp",
+				"yamlls",
 			},
 		})
 
