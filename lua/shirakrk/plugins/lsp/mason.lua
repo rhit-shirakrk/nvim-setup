@@ -31,6 +31,7 @@ return {
 				"pyright",
 				"ruby_lsp",
 				"rust_analyzer",
+				"sqls",
 				"yamlls",
 			},
 		})
