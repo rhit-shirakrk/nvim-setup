@@ -30,6 +30,7 @@ return {
 				"marksman",
 				"pyright",
 				"ruby_lsp",
+				"rust_analyzer",
 				"yamlls",
 			},
 		})
