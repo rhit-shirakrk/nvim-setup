@@ -29,9 +29,8 @@ return {
 				"lua_ls",
 				"marksman",
 				"pyright",
-				"ruby_lsp",
 				"rust_analyzer",
-				"sqls",
+				"ts_ls",
 				"yamlls",
 			},
 		})
@@ -49,7 +48,7 @@ return {
 				"cpplint",
 				"pylint",
 				"yamllint",
-				"rubocop",
+				"eslint",
 			},
 		})
 	end,
